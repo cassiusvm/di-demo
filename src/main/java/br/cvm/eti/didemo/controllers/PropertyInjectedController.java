@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 
-import br.cvm.eti.didemo.services.GreetingServiceImpl;
+import br.cvm.eti.didemo.services.GreetingService;
 
 
 /**
@@ -12,9 +12,10 @@ import br.cvm.eti.didemo.services.GreetingServiceImpl;
  */
 @Controller
 public class PropertyInjectedController {
-	@Autowired
-	@Qualifier("greetingServiceImpl")
-    public GreetingServiceImpl greetingServiceImpl;
+
+    @Autowired
+    @Qualifier("greetingServiceImpl")
+    public GreetingService greetingServiceImpl;
 
     public String sayHello(){
         return greetingServiceImpl.sayGreeting();

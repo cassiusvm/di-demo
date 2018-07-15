@@ -13,8 +13,6 @@ public class ConstructorInjectedController {
 
     private GreetingService greetingService;
 
-    // Works fine without @Autowired
-//    @Autowired
     public ConstructorInjectedController(@Qualifier("constructorGreetingService") GreetingService greetingService) {
         this.greetingService = greetingService;
     }
