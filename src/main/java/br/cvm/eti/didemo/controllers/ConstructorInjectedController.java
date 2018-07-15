@@ -1,6 +1,6 @@
 package br.cvm.eti.didemo.controllers;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 
 import br.cvm.eti.didemo.services.GreetingService;
@@ -15,7 +15,7 @@ public class ConstructorInjectedController {
 
     // Works fine without @Autowired
 //    @Autowired
-    public ConstructorInjectedController(GreetingService greetingService) {
+    public ConstructorInjectedController(@Qualifier("constructorGreetingService") GreetingService greetingService) {
         this.greetingService = greetingService;
     }
 
