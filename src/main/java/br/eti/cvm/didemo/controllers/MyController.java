@@ -1,8 +1,8 @@
-package br.cvm.eti.didemo.controllers;
+package br.eti.cvm.didemo.controllers;
 
 import org.springframework.stereotype.Controller;
 
-import br.cvm.eti.didemo.services.GreetingService;
+import br.eti.cvm.didemo.services.GreetingService;
 
 @Controller
 public class MyController {

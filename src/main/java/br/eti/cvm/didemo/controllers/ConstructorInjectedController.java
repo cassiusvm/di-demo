@@ -1,9 +1,9 @@
-package br.cvm.eti.didemo.controllers;
+package br.eti.cvm.didemo.controllers;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 
-import br.cvm.eti.didemo.services.GreetingService;
+import br.eti.cvm.didemo.services.GreetingService;
 
 /**
  * Created by jt on 5/24/17.
