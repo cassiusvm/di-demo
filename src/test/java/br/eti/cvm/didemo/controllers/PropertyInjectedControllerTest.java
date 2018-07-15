@@ -1,11 +1,12 @@
-package br.cvm.eti.didemo.controllers;
+package br.eti.cvm.didemo.controllers;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import br.cvm.eti.didemo.services.GreetingServiceImpl;
+import br.eti.cvm.didemo.controllers.PropertyInjectedController;
+import br.eti.cvm.didemo.services.GreetingServiceImpl;
 
 /**
  * Created by jt on 5/24/17.

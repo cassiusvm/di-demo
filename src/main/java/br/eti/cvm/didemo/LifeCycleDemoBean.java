@@ -1,4 +1,4 @@
-package br.cvm.eti.didemo;
+package br.eti.cvm.didemo;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;

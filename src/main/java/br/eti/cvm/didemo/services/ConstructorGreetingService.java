@@ -1,4 +1,4 @@
-package br.cvm.eti.didemo.services;
+package br.eti.cvm.didemo.services;
 
 import org.springframework.stereotype.Service;
 

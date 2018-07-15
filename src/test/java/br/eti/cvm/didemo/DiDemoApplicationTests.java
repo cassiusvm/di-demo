@@ -1,4 +1,4 @@
-package br.cvm.eti.didemo;
+package br.eti.cvm.didemo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

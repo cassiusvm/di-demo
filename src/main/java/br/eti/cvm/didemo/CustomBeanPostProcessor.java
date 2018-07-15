@@ -1,4 +1,4 @@
-package br.cvm.eti.didemo;
+package br.eti.cvm.didemo;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;

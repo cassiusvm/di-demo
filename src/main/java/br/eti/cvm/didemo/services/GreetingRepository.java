@@ -1,4 +1,4 @@
-package br.cvm.eti.didemo.services;
+package br.eti.cvm.didemo.services;
 
 /**
  * Created by jt on 5/24/17.

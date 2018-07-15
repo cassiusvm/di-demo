@@ -1,13 +1,13 @@
-package br.cvm.eti.didemo;
+package br.eti.cvm.didemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
-import br.cvm.eti.didemo.controllers.ConstructorInjectedController;
-import br.cvm.eti.didemo.controllers.MyController;
-import br.cvm.eti.didemo.controllers.PropertyInjectedController;
-import br.cvm.eti.didemo.controllers.SetterInjectedController;
+import br.eti.cvm.didemo.controllers.ConstructorInjectedController;
+import br.eti.cvm.didemo.controllers.MyController;
+import br.eti.cvm.didemo.controllers.PropertyInjectedController;
+import br.eti.cvm.didemo.controllers.SetterInjectedController;
 
 @SpringBootApplication
 public class DiDemoApplication {
