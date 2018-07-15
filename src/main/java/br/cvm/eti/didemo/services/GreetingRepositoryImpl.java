@@ -1,8 +1,11 @@
 package br.cvm.eti.didemo.services;
 
+import org.springframework.stereotype.Component;
+
 /**
  * Created by jt on 5/24/17.
  */
+@Component
 public class GreetingRepositoryImpl implements GreetingRepository {
 
     @Override
