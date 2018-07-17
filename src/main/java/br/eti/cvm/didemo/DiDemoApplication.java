@@ -8,6 +8,7 @@ import br.eti.cvm.didemo.controllers.ConstructorInjectedController;
 import br.eti.cvm.didemo.controllers.MyController;
 import br.eti.cvm.didemo.controllers.PropertyInjectedController;
 import br.eti.cvm.didemo.controllers.SetterInjectedController;
+import br.eti.cvm.didemo.examplebeans.FakeDataSource;
 
 @SpringBootApplication
 public class DiDemoApplication {
@@ -21,5 +22,10 @@ public class DiDemoApplication {
 		System.out.println(ctx.getBean(PropertyInjectedController.class).sayHello());
 		System.out.println(ctx.getBean(SetterInjectedController.class).sayHello());
 		System.out.println(ctx.getBean(ConstructorInjectedController.class).sayHello());
+		
+		System.out.println("-----------------------");
+		FakeDataSource fakeDatasource = (FakeDataSource) ctx.getBean(FakeDataSource.class);
+		System.out.println("Username: " + fakeDatasource.getUsername());
+		System.out.println("DBURL: " + fakeDatasource.getDburl());
 	}
 }
